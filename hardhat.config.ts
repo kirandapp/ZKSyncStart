@@ -47,16 +47,6 @@ module.exports = {
     },
   },
   defaultNetwork: "zkTestnet",
-  // networks: {
-  //   goerli: {
-  //     url: "https://goerli.infura.io/v3/3d7823916ffa4e96a260cd712e1a8806" // URL of the Ethereum Web3 RPC (optional)
-  //   },
-  //   zkTestnet: {
-  //     url: "https://testnet.era.zksync.dev", // URL of the zkSync network RPC
-  //     ethNetwork: "goerli", // URL of the Ethereum Web3 RPC, or the identifier of the network (e.g. `mainnet` or `goerli`)
-  //     zksync: true
-  //   }
-  // },
   networks: {
     zkTestnet: {
       url: "https://zksync2-testnet.zksync.dev", // URL of the zkSync network RPC
